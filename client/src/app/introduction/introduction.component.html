@@ -1,0 +1,17 @@
+<div class="row align-center && container">
+  <div class="small-5 large-3 columns primary label">Introduction</div>
+  <div class="small-5 large-3 columns secondary label">Personal Information</div>
+</div>
+<div>
+  <form class="rows">
+    <label class="heading">Your Name
+      <input class="small-6 large-6 columns " type="text" name='name' [(ngModel)]="User.name" placeholder="Full Name">
+    </label>
+    <label class="heading">Write a short description about yourself
+      <textarea rows="10" name='desc' [(ngModel)]="User.desc" placeholder="Maybe you can write about your goals or motivations"></textarea>
+    </label>
+  </form>
+</div>
+<div class="row align-center">
+  <button class=" small-4 large-2 columns button" (click)="proceed()">Proceed</button>
+</div>

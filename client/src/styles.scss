@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+//GENERAL IMPORTS AND INCLUDES
+@import '~foundation-sites/scss/foundation';
+@include foundation-everything(true);
+
+// Motion-ui
+@import '~motion-ui/motion-ui';
+@include motion-ui-transitions;
+@include motion-ui-animations;
+
+@include foundation-flex-classes;
+@include foundation-flex-grid;
